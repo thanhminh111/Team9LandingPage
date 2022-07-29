@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+/* font-family: 'Noto Serif', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+/* font-family: 'Song Myung', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap');
+/* font-family: 'Red Hat Mono', monospace; */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+/* font-family: 'Rubik', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@450&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400&display=swap');
+/* font-family: 'EB Garamond', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
+/* font-family: 'Karla', sans-serif; */
+ 
+ 
+ 
+*{
+    padding: 0px;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+ 
+ 
+ 
+ 
+/* NAVBAR START */
+nav{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    height: 133px;    /* hàng thanh ngang trên */
+    background: #FFFFFF;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.16);
+}
+ 
+.logo{
+    position: absolute;
+    width: 395.83px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    padding-top: 52.54px;
+    padding-left: 63.58px;
+}
+ 
+nav ul{
+    float: right;
+    padding-right: 61px;
+    padding-top: 59px;
+    font-size: 20px;
+    font-family: 'Noto Serif', serif;
+}
+ 
+nav li{
+    display: inline-block;
+    margin: 0 31px;
+    line-height: 34px;
+}
+ 
+nav a{
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+ 
+nav li:hover{
+    box-shadow: 0 2px rgb(0, 0, 0);
+    padding-bottom: 39px;
+}
+ 
+nav #icon{
+    display: none;
+}
+.menu{
+    display: none;
+}
+
+/* NAVBAR END */
+ 
+ 
+ 
+ 
+ 
+/* BODY START */
+.body_main {
+    display: relative;
+    width: 100%;
+    margin: auto;
+    padding-top: 210px;
+}
+.body1 .img{
+    width: 854px;
+    height: 533px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(./img/image\ 2.png) top center / cover no-repeat;
+}
+.body_main .body1 h1{
+    font-size: 54px;
+    width: 858px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 44px;
+    font-family: 'Song Myung', serif;
+    font-weight: 700;
+    line-height: 100%;
+}
+ 
+.body_main .body1 h2{
+    font-size: 20px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 32px;
+    text-align: center;
+    font-family: 'Red Hat Mono', monospace;
+}
+ 
+/* Thanh gạch ngang */
+.hrr{
+    margin: 0 auto;
+    /* position: absolute; */
+    width: 640px;
+    height: 0px;
+    border: 1px solid #000000;
+    background-color: #000;
+    
+}
+ 
+/* BODY END */
+ 
+
+ 
+/* ALL ARTICLES STAR */
+.img-header{
+    width: 225px;
+    height: 53px;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 53px;
+    text-align: center;
+    margin: 64px auto 39px auto;
+    font-family: 'Song Myung', serif;
+}
+ 
+.img-body{
+    width:640px;
+    min-height: 200px;
+    margin: 0px auto 120px auto;
+}
+ 
+/* .img-body2{
+    width:640px;
+    min-height: 200px;
+    margin: 0px auto 120px auto;
+    padding-bottom: 139px;
+} */
+
+.body-img {
+    margin-left: -14px;
+    margin-right: -14px;
+    display: flex;
+    justify-content: center;
+}
+.body-img .body-img-page{
+    /* float: left; */
+    width: 304px;
+    height: 176px;
+    padding: 0 14px;
+   
+}
+ 
+.body-img .body-img-page .body-img-caption{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26.4px;
+    font-family: 'Rubik', sans-serif;
+}
+ 
+/* ALL ARTICLES ENDS */
+ 
+ 
+/* FOOTERS START */
+ 
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 464px;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    margin-top: 113px;
+}
+ 
+.footer .hangtren{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    padding-top: 18px;
+    text-transform: uppercase;
+    font-family: 'Karla', sans-serif;
+}
+ 
+.footer .hangtren p{
+    word-wrap: normal;
+    letter-spacing: 2.5px;
+}
+ 
+strong {
+    font-weight: 800;
+}
+ 
+.footer .imgd{
+    padding-top: 105.12px;
+}
+ 
+.footer .contentt{
+    width: 488px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25.58px;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+    font-weight: lighter;
+    font-style: normal;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'EB Garamond', serif;
+}
+ 
+.footer .links{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding-top: 32px;
+}
+ 
+.footer .links a{
+    padding-bottom: 61px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    border-radius: 0%;
+    text-decoration: underline;
+ 
+}
+ 
+.footer .cre{
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+}
+
+
+ 
+/* FOOTER ENDS */
+
+
+@media (max-width:  23.5em){
+
+    .logo{
+        position: absolute;
+        width: 217px;
+        height: 20px;
+        left: -42px;
+        top: -30px;
+    }
+    nav{
+        position: absolute;
+        width: 375px;
+        height: 65px;
+        left: 0px;
+        top: 0px;
+        background: #FFFFFF;
+        box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.16);
+    }
+    nav ul{
+        display: none;
+    }  
+    nav #icon{
+        display: block;
+        color: black;
+        font-size: 24px;
+        line-height:65px;
+        float: right;
+        font-weight: 500;
+        margin-right: 40px;
+        cursor: pointer;
+        
+    }
+    .body_main {
+        padding-top: 117px;
+    }
+    .body1 .img{
+        width: 375px;
+        height: 235px;
+        
+    }
+    .body_main .body1 h1{
+        font-size: 36px;
+        width:335px;
+        padding-top: 32px;
+        line-height: 43px;
+    }
+    .body_main .body1 h2{
+        font-size: 16px;
+        width: 335px;
+        padding-top: 24px;
+        line-height: 27px;
+        font-weight: 400;
+    }
+    .hrr{
+        width: 375px;
+    }
+    .img-header{
+        width:164px;
+        height:38px;
+        font-size: 32px;
+        line-height: 38px;
+        margin: 56px auto 0 auto;
+    }
+    .img-body{
+        width:335px;
+        height: 194px;
+        margin: 29px auto 120px 47px;
+    }
+    .body-img .body-img-page{
+        width: 335px;
+        height: 194px;
+        padding: 0 34px;
+       
+    }
+    .pra-hide{
+        display: none;
+    }
+    .body-img .body-img-page .body-img-caption{
+        margin-top: 42px;
+    }
+    .body-img .body-img-page .body-img-caption{
+        line-height: 26px;
+    }
+    .footer{
+        height: 456px;
+        margin-top: 82px;
+    }
+    .footer .hangtren{
+        font-size: 14px;
+        padding-top: 22px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    strong {
+        font-weight: 400;
+    }
+    .footer .imgd{
+        padding-top: 103.41px;
+        /* width:236.37px;
+        height: 22.18px; */
+    }
+    .footer .contentt{
+        width: 287px;
+        padding-top: 25.41px;
+        font-size: 13px;
+    }
+    .footer .links{
+    }
+    .footer .links a{
+        /* padding-top: 32px; */
+        padding-bottom: 64px;
+        font-size: 13px;
+     
+    }
+    .footer .cre{
+    }
+     /*  menu meniu */
+
+     .fa:hover{
+        background: #ccc;
+        padding:4px ;
+     }
+
+}
