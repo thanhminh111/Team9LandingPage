@@ -118,7 +118,7 @@ nav #icon{
     line-height: 34px;
     padding-top: 32px;
     padding-bottom: 52px;
-    font-family: 'SF Mono';
+    font-family: 'Red Hat Mono', monospace;
     font-style: normal;
 }
 .img-body{
